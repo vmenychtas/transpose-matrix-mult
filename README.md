@@ -9,4 +9,4 @@ All three .cu files execute this matrix multiplication, only difference being th
 * **cublas-mm.cu :** this file leverages the cuBLAS library which greatly accelerates the calculation of the most common basic linear algebra operations.
 It serves as a benchmark for how fast the multiplication can get.
 
-This code was written and tested on an Nvidia GTX 970 in Ubuntu.
+This code was written in CUDA v8.0 and tested on an Nvidia GTX 970 in Ubuntu 16.04.
